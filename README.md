@@ -8,7 +8,7 @@ Weather app using Vue.js, Google Maps Geocoding, and Dark Sky.
 
 ``` bash
 # clone repo and API submodule
-git clone https://github.com/krestaino/weather-vue.git --recursive
+git clone https://github.com/KyleMitton711/weather-vue.git --recursive
 
 # to fetch submodule if already cloned without the `--recursive` flag
 git submodule update --init
@@ -16,7 +16,7 @@ git submodule update --init
 
 ## API Backend
 
-The API backend for this project is a REST API using Node and Express. It's included in this project as a submodule and located in `./api`. The repo can be found [here](https://github.com/krestaino/weather-api). This backend API fetches geolocation data from Google and weather data from Dark Sky and returns it to the Weather Vue app.
+The API backend for this project is a REST API using Node and Express. It's included in this project as a submodule and located in `./api`. The repo can be found [here](https://github.com/KyleMitton711/weather-api). This backend API fetches geolocation data from Google and weather data from Dark Sky and returns it to the Weather Vue app.
 
 Rename `./api/keys.js.example` to `./api/keys.js` and add your [Dark Sky API](https://darksky.net/dev/) and [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/get-api-key) keys.  
 
